@@ -12,9 +12,9 @@ Se necesitará:
 300 gr de cebolla
 */
 
-gramosDePatatas = 200;
-huevosPorKiloDePatatas = 5;
-gramosDecebolla = 300;
+let gramosDePatatas = 200;
+let huevosPorKiloDePatatas = 5;
+let gramosDecebolla = 300;
 
 let cantidadComensales = prompt("Dime la cantidad de comensales para la cena: ");
 parseInt(cantidadComensales);

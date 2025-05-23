@@ -10,11 +10,13 @@ minutos 30
 Resultado 2*60*60 + 30*60 = 9000 segundos
 */
 
+let horas = 0;
+let minutos = 0;
 
-function ConvertirASegundos(){
+function convertirASegundos(){
 
-    let horas = prompt("Dime la hora");
-    let minutos = prompt("Dame los minutos");
+    horas = prompt("Dime la hora");
+    minutos = prompt("Dame los minutos");
 
     alert(`La hora que me diste es: ${horas}:${minutos}`);
 
@@ -22,4 +24,4 @@ function ConvertirASegundos(){
     alert(`La hora que me diste convertida a segundos es: ${resultadoEnSegundos}seg`);
 }
 
-ConvertirASegundos();
+convertirASegundos();

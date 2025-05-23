@@ -9,9 +9,10 @@ Unidades: 5
 
 Decenas: 4
 */
+let num = 0;
 
 function unidadesYDecenas (){
-    let num = prompt("Dame un número de 2 dígitos");
+    num = prompt("Dame un número de 2 dígitos");
     parseInt(num);
 
     let decenasDelNumero = num / 10;

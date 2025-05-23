@@ -3,15 +3,19 @@ Pues seguimos con los números. Escribe un script  que dado un número nos devue
 
 numero: 50
 
-¿Es par? : true
+¿Es par? : true 
 */
 
-let numero = prompt("Dime un número entero");
+let numero = 0;
+let resultado = 0;
+let par = 0;
 
+numero = prompt("Dime un número entero");
 parseInt(numero);
 
-let resultado = numero % 2;
+resultado = numero % 2;
 
-let par = resultado == 0;
+par = resultado == 0;
 
 console.log("¿Es par?: " + par);
+

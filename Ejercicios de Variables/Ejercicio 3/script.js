@@ -10,14 +10,15 @@ Usuario escribe juan
 Hola Juan
 */
 
-function saludar(){
-    let name = prompt("Escribe tu nombre:");
+let nameUser = "";
+nameUser = prompt("Escribe tu nombre:");
 
-    if(name !== ""){
-        alert(`Hola ${name}`);
+function saludar(nameUser){
+
+    if(nameUser !== ""){
+        alert(`Hola ${nameUser}`);
     }else{
         alert("Recuerda escribir tu nombre");
     }
 }
-
-saludar(name);
+saludar(nameUser);

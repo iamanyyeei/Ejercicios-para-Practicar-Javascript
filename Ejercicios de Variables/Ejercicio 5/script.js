@@ -12,11 +12,13 @@ Num de kilómetros: 80
 Has consumido 0.25 l/km  //   20/80
 */
 
+let numKm = 0;
+let numLitros = 0;
 
 function calculate(){
-    let numKm = prompt("¿Cuántos kilómetros has recorrido?");
+    numKm = prompt("¿Cuántos kilómetros has recorrido?");
 
-    let numLitros = prompt("¿Cuántos litros de gasolina has consumido?");
+    numLitros = prompt("¿Cuántos litros de gasolina has consumido?");
 
     let resultado = 0;
 
