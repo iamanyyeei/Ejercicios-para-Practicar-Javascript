@@ -7,9 +7,11 @@ Si se entran 4 y 0, debe resultar en un mensaje de error.
 */
 
 
-let dividendo = prompt("Dime un número entero:");
-let divisor = prompt("Dime otro número entero:");
+let dividendo = 0;
+let divisor = 0;
 
+dividendo = prompt("Dime un número entero:");
+divisor = prompt("Dime otro número entero:");
 parseInt(dividendo);
 parseInt(divisor);
 

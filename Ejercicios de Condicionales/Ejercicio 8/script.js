@@ -7,18 +7,24 @@ Por ejemplo si compras 20 artículos de 50 euros se te descuenta un 15% del tota
 
 const porcentajeDescuento = 15;
 
-let articulos = prompt("¿Cuántos artículos iguales llevas?");
-let cantidadDeArticulos = parseInt(articulos);
+let articulos = 0;
+let cantidadDeArticulos = 0;
+let precio = 0;
+let elPrecio = 0;
 
-let precio = prompt("¿Cuál es el precio en euros?");
-let elPrecio = parseFloat(precio);
+articulos = prompt("¿Cuántos artículos iguales llevas?");
+cantidadDeArticulos = parseInt(articulos);
+
+precio = prompt("¿Cuál es el precio en euros?");
+elPrecio = parseFloat(precio);
 
 if(cantidadDeArticulos >= 10 && elPrecio > 40){
+    'strict mode'
     
     let factura = cantidadDeArticulos * elPrecio;
     let facturaFinal = factura - ((factura * porcentajeDescuento)/100);
 
-    console.log("Debes pagar: " + facturaFinal + "euros.");
+    console.log("Debes pagar: " + facturaFinal + " euros.");
 }else{
     let factura = cantidadDeArticulos * elPrecio;
     console.log("Tu factura es de: " + facturaFinal + " euros");

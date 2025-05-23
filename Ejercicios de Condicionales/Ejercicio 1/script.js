@@ -5,8 +5,8 @@ Recordemos que un número es par si al dividirlo por 2 da como resto 0.
 
 Si el número es 17, el programa debe decir que es impar
 */
-
-let numero = prompt("Dime un número");
+let numero = 0;
+numero = prompt("Dime un número");
 parseInt(numero);
 
 if(numero%2 === 0){

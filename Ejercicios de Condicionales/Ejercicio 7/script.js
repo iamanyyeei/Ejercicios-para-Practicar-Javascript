@@ -4,11 +4,15 @@ En un tramo de un rally los conductores no deben ir ni demasiado rápido ni dema
 Ejemplo si recorre 100 km en 4 horas, ha ido a una velocidad de 100/4 que son 25km/h. Estaría descalificado.
 */
 
-let longitudDelTramoEnKm = prompt("¿Cuál es la longitud del tramo en kilómetros");
+let longitudDelTramoEnKm = 0;
+let tiempoEmpleado = 0;
+let kmSobreHoras = 0;
 
-let tiempoEmpleado = prompt("¿Cuál es tiempo empleado en horas?");
+longitudDelTramoEnKm = prompt("¿Cuál es la longitud del tramo en kilómetros");
 
-let kmSobreHoras = parseInt(longitudDelTramoEnKm) / parseInt(tiempoEmpleado);
+tiempoEmpleado = prompt("¿Cuál es tiempo empleado en horas?");
+
+kmSobreHoras = parseInt(longitudDelTramoEnKm) / parseInt(tiempoEmpleado);
 
 if(kmSobreHoras >= 40 && kmSobreHoras <= 60){
     alert('El conductor es APROBADO ');

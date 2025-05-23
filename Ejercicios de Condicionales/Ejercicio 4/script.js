@@ -3,8 +3,8 @@ Este script pide al usuario que teclee una letra entre A, B, C, D. Si pulsa la l
 
 Si pulsa C le dará mensaje de error.
 */
-
-let letra = prompt("Escribe una letra entre A, B, C y D: ");
+let letra = "";
+letra = prompt("Escribe una letra entre A, B, C y D: ");
 
 if(letra == "A" || letra == "a"){
     alert("¡Genial! Has acertado :)");

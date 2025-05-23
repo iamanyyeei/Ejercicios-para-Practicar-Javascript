@@ -4,9 +4,11 @@ Este programa te ayuda a viajar. El programa pide al usuario si va a viajar con 
 
 */
 
-let transporte = prompt("¿Cómo viajará? 1. Coche, 2. Tren, 3. Bicicleta o 4. Autobús. Indica tu selección con el número que corresponda");
+let transporte = 0;
+let opcion = 0;
 
-let opcion = parseInt(transporte)
+transporte = prompt("¿Cómo viajará? 1. Coche, 2. Tren, 3. Bicicleta o 4. Autobús. Indica tu selección con el número que corresponda");
+opcion = parseInt(transporte)
 
 if(opcion === 2 || opcion === 4){
     alert("Recuerda llevar dinero para tu ticket de viaje :)")
